@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:900');
+.wrap{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.frog{
+  margin-top: 20%;
+  /*margin-bottom: 20%;*/
+}
+.tria{
+  width:280px;
+  height:280px;
+  background-color:#69A618;
+  -webkit-clip-path: polygon(0 38%, 11% 100%, 100% 100%);
+  clip-path: polygon(0 38%, 11% 100%, 100% 100%);
+}
+.tria1{
+  position:relative;
+  z-index: 10;
+  margin: -280px 0 0 0;
+  width:280px;
+  height:280px;
+  background-color:#7AB800;
+  -webkit-clip-path: polygon(50% 0%, 0 38%, 100% 100%);
+  clip-path: polygon(50% 0%, 0 38%, 100% 100%);
+}
+.tria2{
+  position:relative;
+  z-index: 9;
+  margin: -372px 0 0 158px;
+  width:380px;
+  height:380px;
+  background-color:#69A618;
+  -webkit-clip-path: polygon(40% 100%, 0 65%, 100% 0);
+  clip-path: polygon(40% 100%, 0 65%, 100% 0);
+  transform: rotate(9.2deg);
+}
+.tria3{
+  position:relative;
+  z-index: 8;
+  margin: -359px 0 0 308px;
+  width:380px;
+  height:380px;
+  background-color:#7AB800;
+  -webkit-clip-path: polygon(40% 100%, 0 65%, 100% 0);
+  clip-path: polygon(40% 100%, 0 65%, 100% 0);
+  transform: rotate(189deg);
+}
+.tria4{
+  margin: -409px 0 0 275px;
+  width:420px;
+  height:380px;
+  background-color:#5B8F22;
+  -webkit-clip-path: polygon(100% 43%, 0% 100%, 60% 100%);
+clip-path: polygon(100% 50%, 0% 100%, 55% 100%);
+}
+.eyes{
+  z-index:11;
+  position:absolute;
+  top:25%;
+  left:32%;
+  width:90px;
+  height:90px;
+  margin-left:300px;
+  background-color:#fff;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
+.in_eye{
+  position: relative;
+  width:50px;
+  height:50px;
+  background-color:#000;
+  -webkit-clip-path: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text{
+  font-family: 'Nunito', sans-serif;
+  font-size: 15em;
+}
